@@ -9,9 +9,9 @@
 	<url>http://maven.apache.org</url>
 	
 	<scm>
-			<url>https://github.com/sreekanth1990/javaproject</url>
-			<connection>scm:git:https://github.com/sreekanth1990/javaproject.git</connection>
-			<developerConnection>scm:git:https://github.com/sreekanth1990/javaproject.git</developerConnection>
+			<url>http://github.com/sreekanth1990/javaproject</url>
+			<connection>scm:git:http://github.com/sreekanth1990/javaproject.git</connection>
+			<developerConnection>scm:git:http://github.com/sreekanth1990/javaproject.git</developerConnection>
 	  
   </scm>
 
