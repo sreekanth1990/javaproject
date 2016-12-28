@@ -8,12 +8,7 @@
 	<name>ims Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	
-	<scm>
-			<url>https://github.com/sreekanth1990/javaproject</url>
-			<connection>scm:git:https://github.com/sreekanth1990/javaproject.git</connection>
-			<developerConnection>scm:git:https://github.com/sreekanth1990/javaproject.git</developerConnection>
-	  
-  </scm>
+	
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,8 +20,15 @@
 			<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 			<sonar.jacoco.reportPath>${project.build.directory}/coverage-reports/jacoco.exec</sonar.jacoco.reportPath>
 			<sonar.language>java</sonar.language>
-		<!-- Manju end -->	
+		<!-- Manju end -->
+		<project.scm.id>gitserver</project.scm.id>
 	</properties>
+	<scm>
+			<url>https://github.com/sreekanth1990/javaproject</url>
+			<connection>scm:git:https://github.com/sreekanth1990/javaproject.git</connection>
+			<developerConnection>scm:git:https://github.com/sreekanth1990/javaproject.git</developerConnection>
+	  
+  </scm>
 	<!-- Remote changes-->
 	<!-- Add Nexus server details -->
 	<distributionManagement>
